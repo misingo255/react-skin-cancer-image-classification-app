@@ -2,6 +2,8 @@
 
 This project is a React application built with Vite that utilizes machine learning to classify skin cancer images into three categories: benign cancer, malignant cancer, and non-skin cancer images. 
 
+![Skin Cancer Image Classification App](./images/screenshot.png)
+
 ## Features
 
 - **Image Classification**: The app employs a machine learning model to classify skin cancer images accurately.
@@ -19,7 +21,7 @@ Before running the application, ensure you have the following installed:
 
 1. **Clone the Repository**: 
     ```bash
-    git clone https://github.com/your-username/skin-cancer-classification-app.git
+    git clone https://github.com/misingo255/skin-cancer-classification-app.git
     ```
 
 2. **Navigate to the Project Directory**:
