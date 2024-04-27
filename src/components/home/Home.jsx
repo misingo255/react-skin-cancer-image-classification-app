@@ -38,7 +38,7 @@ export const Home = () => {
     if (selectedImage) {
       setLoading(true);
 
-      const modelURL = "https://teachablemachine.withgoogle.com/models/AI2v_6cUB/"; 
+      const modelURL = "../../../models/"; 
       const classifier = await ml5.imageClassifier(modelURL);
       const image = document.createElement('img');
       image.src = URL.createObjectURL(selectedImage);
